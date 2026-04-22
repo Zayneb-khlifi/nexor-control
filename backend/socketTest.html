@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Test Socket</title>
+</head>
+
+<body>
+
+<h2>Test temps réel</h2>
+
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+
+<script>
+
+const socket = io("http://localhost:5000");
+
+socket.on("robot:update", (data) => {
+  console.log("Robot update :", data);
+});
+
+socket.on("mission:terminee", (data) => {
+  console.log("Mission terminée :", data);
+});
+
+</script>
+
+</body>
+</html>
