@@ -1,5 +1,6 @@
 # 🤖 NEXOR CONTROL - Robot Fleet Manager
-
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
+![Tech](https://img.shields.io/badge/stack-React%20%7C%20Node%20%7C%20Python-blue) 
 Plateforme web complète de supervision et gestion intelligente de flotte de robots, avec système de commandes, gestion des stocks, fidélisation client et recommandations IA.
 
 ---
